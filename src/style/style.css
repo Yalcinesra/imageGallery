@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(25, 20, 20)
+    
+    }
+    .a{box-sizing: border-box;
+    overflow: hidden;}
+   .image:hover{
+    transform:scale(1.1);
+    transition:transform 0.8s;
+    
+   }
