@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap'
 
 const Pictures = (data) => {
   return (
-    <div>
+   
      <Card style={{ width: '18rem' }}>
      <div className='w-100 a'>
       <Card.Img className='image'  style={{width:"100%", height:"50vh"}} variant="top" src={data?.src?.large} />
@@ -15,7 +15,7 @@ const Pictures = (data) => {
       </Card.Body>
     </Card>
       
-    </div>
+    
   )
 }
 
